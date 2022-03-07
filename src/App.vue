@@ -3,18 +3,26 @@ import MainApp from './components/MainApp.vue'
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <main-app msg="Hello Web Component" />
+  <header>
+    <h2>Vue app - styled by Design Tokens</h2>
+  </header>
+  <main-app msg="Example web component" />
 </template>
 
-<style>
-#app {
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Raleway', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+header {
+  background-color: var(--teal-03);
+  color: var(--gray-02);
+  margin: 0;
 }
+h2 {
+  font-family: var(--raleway);
+  font-size: var(--h3);
+  padding: 1rem;
+  margin: 0;
+}
+
+// #app {
+  
+// }
 </style>
