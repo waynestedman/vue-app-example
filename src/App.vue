@@ -4,25 +4,25 @@ import MainApp from './components/MainApp.vue'
 
 <template>
   <header>
-    <h2>Vue app - styled by Design Tokens</h2>
+    <h1>This is a Design System Powered Web App</h1>
   </header>
-  <main-app msg="Example web component" />
+  <main-app msg="Tokens to App, how does it work?" />
 </template>
 
 <style lang="scss">
 header {
   background-color: var(--teal-03);
-  color: var(--gray-02);
+  color: #fff;
   margin: 0;
+  text-align: center;
 }
-h2 {
+h1 {
   font-family: var(--raleway);
-  font-size: var(--h3);
+  font-size: var(--h1);
   padding: 1rem;
   margin: 0;
 }
 
-// #app {
-  
-// }
+#app {
+}
 </style>
