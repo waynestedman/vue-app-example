@@ -4,7 +4,7 @@ import MainApp from './components/MainApp.vue'
 
 <template>
   <header>
-    <h1>This is a Design System Powered Web App</h1>
+    <h3>Wayne's Micro Design System</h3>
   </header>
   <main-app msg="Tokens to App, how does it work?" />
 </template>
@@ -16,13 +16,10 @@ header {
   margin: 0;
   text-align: center;
 }
-h1 {
+h3 {
   font-family: var(--raleway);
-  font-size: var(--h1);
+  font-size: var(--h3);
   padding: 1rem;
   margin: 0;
-}
-
-#app {
 }
 </style>
