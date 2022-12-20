@@ -11,12 +11,12 @@
   <div class="tokens-figma concept">
     <h2>#1 - It all starts by establishing your Design tokens</h2>
     <a target="_blank" href="https://www.figma.com/file/DvZ47nOktUjA0bxjUnGhgp/Design-Tokens-example">
-      <img src="../assets/design-tokens-figma.png" alt="Figma file for the Dsign Tokens">
+      <img src="../assets/tokens-in-figma.png" alt="Figma file for the Dsign Tokens">
       <p>click to see the Figma Tokens file</p>
     </a>
   </div>
   <div class="component concept">
-    <h2>#2 - An example of a componet, that has been built by the system</h2>
+    <h2>#2 - An example of a componet,<br>that has been built by the system</h2>
     <p>This example card is a framework agnostic web componet. It has been imported into this Vue app, exactly the same way any other UI library is used.</p>
     <p>Design Token information has flowed down to the componet and app from the single source of truth.</p>
     <card-component></card-component>

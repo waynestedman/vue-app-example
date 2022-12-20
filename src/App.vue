@@ -4,7 +4,7 @@ import MainApp from './components/MainApp.vue'
 
 <template>
   <header>
-    <h3>Wayne's Micro Design System</h3>
+    <h3>Wayne's Micro Design System (Vue version)</h3>
   </header>
   <main-app msg="Tokens to App, how does it work?" />
 </template>
