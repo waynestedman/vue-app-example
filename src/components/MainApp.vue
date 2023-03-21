@@ -4,7 +4,7 @@
   <div class="figjam concept">
     <h2>This FigJam illustrates the parts of a design system and how they're connected:</h2>
     <a target="_blank" href="https://www.figma.com/file/UDUmV5OdNafGKzy0zOwwa5/Design-System-example">
-      <img src="../assets/design-system-example.png" alt="FigJam illustarting a design system">
+      <img src="../assets/tokens-pipeline-diagram.png" alt="FigJam illustarting a design system">
       <p>click to see the FigJam diagram</p>
     </a>
   </div>

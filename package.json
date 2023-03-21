@@ -1,19 +1,19 @@
 {
-  "name": "vue-app-example",
+  "name": "design-sys-vue",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "lit": "^2.2.0",
+    "lit": "^2.5.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.0",
-    "sass": "^1.49.9",
-    "vite": "^2.8.0"
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.0",
+    "vite": "^4.0.0"
   }
 }
